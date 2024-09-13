@@ -1,0 +1,36 @@
+{
+    "item": {
+        "phone": {
+            "image": "https://img.freepik.com/free-vector/human-hand-holding-mobile-phone-with-text-messages_74855-6531.jpg?ga=GA1.1.383278922.1725978978&semt=ais_hybrid",
+            "info": ""
+        },
+        "wi-fi": {
+            "image": "https://img.freepik.com/free-vector/wifi-off_78370-2417.jpg?ga=GA1.1.383278922.1725978978&semt=ais_hybrid",
+            "info": ""
+        },
+        "headphone": {
+           "image": "https://img.freepik.com/free-photo/overhead-view-white-headphone-against-blue-background_23-2147889912.jpg?ga=GA1.1.383278922.1725978978&semt=ais_hybrid",
+            "info": ""
+        },
+        "laptop": {
+            "image": "https://img.freepik.com/free-photo/still-life-books-versus-technology_23-2150062920.jpg?ga=GA1.1.383278922.1725978978&semt=ais_hybrid",
+            "info": ""
+        },
+        "monitor": {
+            "image": "https://img.freepik.com/free-photo/view-computer-monitor-with-gradient-display_23-2150757485.jpg?semt=ais_hybrid",
+             "info": ""
+        },
+        "portable-acoustics": {
+           "image": "https://img.freepik.com/premium-photo/red-portable-speaker-blue-pink-background_941468-8388.jpg?semt=ais_hybrid",
+            "info": ""
+        },
+        "components": {
+           "image": "https://img.freepik.com/free-photo/microchip-macro-photo-background_125540-4903.jpg?semt=ais_hybrid",
+            "info": ""
+        },
+        "coffee-machine": {
+           "image": "https://img.freepik.com/free-photo/coffee-machine-making-perfect-cup-coffee_23-2151699636.jpg?semt=ais_hybrid",
+            "info": ""
+        }
+    }
+}
