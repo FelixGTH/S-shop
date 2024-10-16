@@ -4,7 +4,10 @@ function ProductCard(props) {
     return (
         <div style = {{display: "flex", justifyContent: "center"}}>
             <img style = {{width:"50%"}} src = {props.img}></img>
-            <h2>{props.info}</h2>
+            <div>
+                <h2></h2>
+                <p>{props.info}</p>
+            </div>
         </div>
     );
 }
