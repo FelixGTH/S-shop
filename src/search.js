@@ -1,34 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import History_button from './history_button';
 
 function Search(props) {
-
-    const [search, setSearch] = useState([])
-
-    useEffect(() => {
-        const fetch_data = async () => {
-            try {    
-                                       
-                const response = await fetch("https://my-json-server.typicode.com/FelixGTH/for-test/db2")
-                if (!response.ok) {
-                    throw new Error(`Ошибка загрузки ${response.statusText}`)
-                }
-                const data = await response.json();
-
-                setSearch(data)
-                
-            } 
-            catch (error) {
-                alert(error);
-            }
-
-        }
-        
-        fetch_data();
-    }, [])
-
+    alert(props)
     return (
-        <div style={{display:"flex"}}>
-            {search.map((value, index) => <button key = {index}><p>{value}</p></button>)}
+        <div style={{display:"flex", flexDirection:"column", position:"absolute", zIndex: "100", marginTop: "55px", width:"25%", background: "red"}}>
+            {props.search.map((value, index) => <History_button key = {index} value = {value}></History_button>)}
         </div>
     );
 }
